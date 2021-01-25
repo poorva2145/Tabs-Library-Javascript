@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style myTab div */
+#myTab {
+  height: 50%;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid #212529;
+}
+
+/* Style tab links */
+.tablink {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #0d6efd;
+  width: 10%;
+  padding: 1%;
+  margin-left: 1%;
+  border-radius: 5%;
+  font-size: large;
+}
+
+/* .tablink {
+  transition-duration: 0.4s;
+} */
+
+.tablink:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.tabcontent {
+  padding: 2%;
+  height: 100%;
+}
